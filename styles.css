@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    margin: 0;
+    font-family :  "Risque";
+    font: pink;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.container{
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    max-width : 600px;
+}
+
+input{
+    padding: 10px;
+    margin-top: 15px;
+    width: 80%;
+    border: 2px solid #ff77aa;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff77aa;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #ff5c99;
+}
+
+#clue{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-family: "Quicksand";
+    color: #444;
+}
+
+#message{
+    margin-top: 10px;
+    font-style: italic;
+    color: #ff3366;
+}
+
